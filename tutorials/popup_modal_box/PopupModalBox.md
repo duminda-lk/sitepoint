@@ -1,7 +1,7 @@
 # Popup Modal Box – Design from Scratch
 
 Popup modal boxes are quite popular among almost all web developers these days. In simple terms, it is an overlay of HTML element(s) over a web page. If you an experienced web developer, it is not a new thing for you. You may already familiar using modal boxes that come with many third-party libraries such as jQuery. 
-But, have you ever wondered whether you can design a custom modal box for your projects? Are you curious about what is happening behind modal boxes? If YES and you are not sure how; this tutorial is for you. If you have doubts, find out how easy it is by going through this. In this tutorial, I’ll take you in the process of creating a custom modal box using only HTML, CSS and some JavaScript without the help of any third-party libraries. Then, I’ll show you how to alter your design to come up with different types of modal boxes.
+But, have you ever wondered whether you can design a custom modal box for your projects? Are you curious about what is happening behind modal boxes? If YES and you are not sure how; this tutorial is for you. In this tutorial, I’ll take you in the process of creating a custom modal box using only HTML, CSS and some JavaScript without the help of any third-party libraries. Then, I’ll show you how to alter your design to come up with different types of modal boxes.
 
 ## Do We Need Modal Boxes?
 Usually, a modal box is designed to direct the users’ attention to a certain detail from the web page without redirecting the user to another page or reloading the page. When it is required to highlight something to the user, the modal box comes to play. 
@@ -339,7 +339,7 @@ modalBoxWrapper.style.display = 'block';
 You can see a working example below.
 http://codepen.io/dumindalk/pen/mOZRea
 Even we used a web form in this example; we are able to use any kind of HTML content in the modal box using the same function. You may use it for preview images/ videos, banner advertisements, signup forms or any markup you wish to have on your website.
-## How to Improve Our Modal Box
+## How to Improve Usage
 Now we know creating several types of modal boxes. But, you may wonder whether it is suitable to use in a live project. Yes, we need to improve our code to make it better to use on a live website. For learning purposes, we have used different HTML markup structures and JavaScript functions to show/ hide modal boxes. 
 If we generate the elements within the JavaScript, we can skip the step of adding any HTML markup to the page we are going to create the modal box. 
 Another improvement is to bundle our JavaScript functions to a tiny library make it more professional. You can reuse this library independently whenever required. I am not going to discuss implementing JavaScript libraries here as it would be another lengthy topic.
